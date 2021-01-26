@@ -22,6 +22,6 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file demo/pom.xml
-    - name: Building   
-      run: cd demo && ./mvnw package && java -jar target/gs-spring-boot-docker-0.1.0.jar
+    - name: Maven Clean Install   
+      run: mvn clean install
 
