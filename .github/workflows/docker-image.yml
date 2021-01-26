@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t learn-gitlab/demo  .
     - name: Running the Docker image
-      run: docker run -p 8080:8080 -t learn-gitlab/demo-0.0.1-SNAPSHOT
+      run: docker run -p 8080:8080 -t learn-gitlab/demo
