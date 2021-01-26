@@ -16,5 +16,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build -t learn-gitlab/demo  .
+    - name: Listing all docker tags or images
+      run: docker-browse tags learn-gitlab/demo
     - name: Running the Docker image
       run: docker run -p 8080:8080 -t learn-gitlab/demo:latest
