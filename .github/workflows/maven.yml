@@ -24,4 +24,7 @@ jobs:
       run: mvn -B package --file demo/pom.xml
     - name: Maven Clean Install   
       run: mvn -B package --file demo/pom.xml clean install
+    - name: jar building
+      run: mvn -B package && java -jar target/gs-spring-boot-docker-0.1.0.jar
+
 
