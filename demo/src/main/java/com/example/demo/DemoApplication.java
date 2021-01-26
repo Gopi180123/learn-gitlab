@@ -14,7 +14,7 @@ import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		System.out.println("helloo");
+		System.out.println("helloo.....");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
