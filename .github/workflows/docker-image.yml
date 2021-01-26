@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build -t springio/gs-spring-boot-docker-tulasi  .
+      run: docker build -t springio/demo  .
